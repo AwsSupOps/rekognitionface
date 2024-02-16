@@ -43,7 +43,7 @@ const dictionary = {
           sessionId={'sessionId'}
           region="us-east-1"
           onAnalysisComplete={async () => {}}
-          displayText={dictionary[language]}
+          displayText={dictionary[es]}
         />
       )}
     </>
