@@ -8,7 +8,15 @@ Amplify.configure(awsexports);
 
 const dictionary = {
   // use default strings for english
-  en: null,
+  en: {
+    photosensitivyWarningHeadingText: 'Advertencia de fotosensibilidad',
+    photosensitivyWarningBodyText:
+      'Esta verificación muestra luces de colores. Tenga cuidado si es fotosensible.',
+    goodFitCaptionText: 'Buen ajuste',
+    tooFarCaptionText: 'Demasiado lejos',
+    hintCenterFaceText: 'Centra tu cara',
+    startScreenBeginCheckText: 'Comenzar a verificar',
+  },
   es: {
     photosensitivyWarningHeadingText: 'Advertencia de fotosensibilidad',
     photosensitivyWarningBodyText:
